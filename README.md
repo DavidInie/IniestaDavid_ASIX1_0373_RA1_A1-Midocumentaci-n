@@ -72,7 +72,7 @@ __Para poner una imagen utilizaremos la estiqueta:__ Aqui lo mas importante, es 
 ![alt text](./images.jpg "Imagen astronauta")
 
 
-__Para hacer una tabla__ Utilizaremos las barras||, |-----------| Esto lo utilizaremos para darle el ancho a la tabla.
+__Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo utilizaremos para darle el ancho a la tabla.
 
 | Jugador | Equipo | Nombre |
 |-----------:|:-----------:|:-----------|
@@ -81,6 +81,17 @@ __Para hacer una tabla__ Utilizaremos las barras||, |-----------| Esto lo utiliz
 | 1 | Barça | Joan |// -->
 
 
+# Como hacer un commit a github desde linea de comandos.
+1. El primer paso, es entrar a github y coger el enlace de html.
+![alt text](./img/caplink.png "Imagen astronauta")
+2. Una vez copiado el enlace, iremos a la carpeta del repositorio y abriremos el cmd.
+![alt text](./img/cap1commit.png "Imagen astronauta")
+3. Una vez abierto el cms ejecutaremos el comando (git clone "enlace del repostioria HTML")
+![alt text](./img/cap2commit.png "Imagen astronauta")
+5. Cuando hayamos clonado el repositorio, tendremos que abir el cmd dentro de la carpeta del repositorio.
+![alt text](./img/cap3commit.png"Imagen astronauta")
+6. Una vez ejecutado el git clone, haremos estos pasos; 1.git init 2.git add . 3.git commit -m "nombre que queremos que tenga el commit" 4.git push origin main.
+![alt text](./img/cap4commit.png "Imagen astronauta")
 
 
 
