@@ -290,52 +290,58 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 
 - En estas dos etiquetas utilizaremos los atributos: 
 
-- __name:__ Nombre del control que se usa al enviar el formulario.
-- __id:__ Identificador único del elemento.
-- __size:__ Número de opciones visibles sin desplazarse.
-- __multiple:__ Permite seleccionar varias opciones a la vez.
-- __value:__ Valor predeterminado del campo o valor enviado al servidor.
+* __name:__ Nombre del control que se usa al enviar el formulario.
+* __id:__ Identificador único del elemento.
+* __size:__ Número de opciones visibles sin desplazarse.
+* __multiple:__ Permite seleccionar varias opciones a la vez.
+* __value:__ Valor predeterminado del campo o valor enviado al servidor.
 
 - Como ultima etiqueta de formulario tenemos <textarea>:
 
 - Esta se utiliza para crear una área de texto para que los usuarios puedan poner texto. 
 
-- __name:__ Nombre del control que se usa al enviar el formulario.
-- __id:__ Identificador único del elemento; permite vincular etiquetas <label>.
-- __rows:__ Número de líneas visibles (altura).
-- __cols:__ Número de caracteres visibles por línea (ancho).
-- __required:__ Campo obligatorio para enviar el formulario.
-- __readonly:__ Campo solo de lectura (no editable).
-- __disable:__ Campo desactivado (no interactivo).
+* __name:__ Nombre del control que se usa al enviar el formulario.
+* __id:__ Identificador único del elemento; permite vincular etiquetas <label>.
+* __rows:__ Número de líneas visibles (altura).
+* __cols:__ Número de caracteres visibles por línea (ancho).
+* __required:__ Campo obligatorio para enviar el formulario.
+* __readonly:__ Campo solo de lectura (no editable).
+* __disable:__ Campo desactivado (no interactivo).
 
 1. __Código Formulario:__
+
 ![formulario](./img/formulario/codigoformulario.png "Imagen formulario")
+
 2. __Resultado Formulario:__
+
 ![formulario](./img/formulario/formulario.png "Imagen formulario")
 
 
 ## Tablas:
 - Las etiquetas de tablas son: 
-1. __<Table>:__ Se utiliza para dar inicio a una tabla HTML. Esta etiqueta tiene atributos asociados. 
+1. __Table:__ Se utiliza para dar inicio a una tabla HTML. Esta etiqueta tiene atributos asociados. 
     * __Border:__ Define el grosor del borde de la tabla.
     * __Width:__ Sirve para poner el ancho de la tabla.
-2. __<thead>:__ Agrupa el encabezado de la tabla, contiena la etiqueta <th>.
-3. __<tbody>:__ Agrupa el contenido importante de la tabla.
-4. __<tfooter>:__ Agrupa el pie de la tabla, información final.
-5. __<caption>:__ Sirve para poner texto debajo de la tabla
-6. __<tr>:__ Fila de una tabla. Esta etiqueta tiene atributos asociados. 
+2. __thead:__ Agrupa el encabezado de la tabla, contiena la etiqueta (th).
+3. __tbody:__ Agrupa el contenido importante de la tabla.
+4. __tfooter:__ Agrupa el pie de la tabla, información final.
+5. __caption:__ Sirve para poner texto debajo de la tabla
+6. __tr:__ Fila de una tabla. Esta etiqueta tiene atributos asociados. 
     * __align:__ Alineación el contenido de una fila, alineación vertical. 
     * __bgcolor:__ Define el color del borde de la fila.
     * __valing:__ Alineación horizontal.
-7. __<th>:__ Celda de encabezado de una tabla, "th" se muestra en negrita. Esta etiqueta tiene atributos asociados. 
+7. __th:__ Celda de encabezado de una tabla, "th" se muestra en negrita. Esta etiqueta tiene atributos asociados. 
     * __colspan:__  Define cuantas columnas abarca la celda.
     * __rowspan:__  Define cuantas filas abarca la celda. 
-8. __<td>:__ Celda de datos dento de la fila de la tabla.  Esta etiqueta tiene atributos asociados. 
+8. __td:__ Celda de datos dento de la fila de la tabla.  Esta etiqueta tiene atributos asociados. 
     * __align:__  Alinea el contenido dentro de la celda.
     * __colspan:__ Define cuantas columnas abarca la celda.
     * __rowspan:__ Define cuantas filas abarca la celda.
 
 1. __Código tabla:__
+
 ![tabla](./img/tabla/codigotabla.png "Imagen tabla")
+
 2. __Resultado tabla:__
+
 ![tabla](./img/tabla/tabla.png "Imagen tabla")
