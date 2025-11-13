@@ -228,19 +228,37 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 
 
 ## Párrafos:
+- Los párrafos sirven para agrupar oraciones relacionadas. Para hacer párrafos utilizaremos la etiqueta (p).
 
+```html
+    <p>Párrafo 1</p>
+    <p>Párrafo 2</p>
+```
 
 ## Salto de Linea:
+- Un salto de linea sirve para mandar el texto, imagenes a la siguiente linea. Esto lo haremos con la etiqueta (br).
+```html
+    <h4>Párrafo 1</h4>
+    <br>
+    <h5>Párrafo 2</h5>
+```
 
+## Separador de línea: 
+- Dibuja una línea divisoria. En la página. Esto lo haremos con etiqueta (hr).
 
-## Separador de línea:
+![hr](./img/hr/hr.png "Imagen hr")
 
 
 ## Contenedor en linea: 
+- Agrupa texto dentro de una línea sin crear un bloque nuevo. Esto lo haremos con la etiqueta (span).
 
+![span](./img/span/html-span-tag.png "Imagen spam")
 
 
 ## Estilos HTML:
+- Para poner estilos en HTML, utlizaremos las etiquetas:
+* __strong__
+* __em__
 
 ```html
     <strong>Se utiliza (strong) para poner negregita el texto</strong>
@@ -255,6 +273,35 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 
 ## Listas HTML: 
 
+1. __Listas desordenadas:__ (ul): No tienen orden, usan viñetas.
+
+    * __Codigo Lista Desordenada:__
+
+    ![Codigo Lista Desordenada](./img/listas/codigodesordenado.png "Codigo Lista Desordenada")
+
+     * __Resultado Lista Desordenada:__
+
+     ![Resultado Lista Desordenada](./img/listas/listadesordenada.png "Resultado Lista Desordenada")
+
+2. __Listas ordenadas:__ (ol) sí tienen orden, pueden usar números o letras. Cada punto de lista se define con (li).
+
+    * __Codigo Lista Ordenada:__
+
+    ![Codigo Lista Ordenada](./img/listas/codgioordenado.png "Codigo Lista Ordenada")
+
+     * __Resultado Lista Ordenada:__
+
+     ![Resultado Lista Ordenada](./img/listas/listaordenada.png "Resultado Lista Ordenada")
+
+3. Estas listas las podemos combinar, haciendo un combinado de las etiquetas.
+
+    * __Codigo Lista Combinada:__
+
+    ![CodigoLista Combinada](./img/listas/codigocombinado.png "Lista Combinada")
+
+     * __Resultado Lista Combinada:__
+
+     ![Resultado Lista Combinada](./img/listas/combinado.png "Resultado Lista Combinada")
 
 ## Rutas HTML:
 
@@ -345,3 +392,5 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 2. __Resultado tabla:__
 
 ![tabla](./img/tabla/tabla.png "Imagen tabla")
+
+# Validar código HTML:
