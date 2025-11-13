@@ -284,13 +284,11 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 
 
 ## Formularios:
-- Para hacer formularios utilizaremos, las etiquetas: 
+- Para hacer formularios utilizaremos, las etiquetas: (imput): Se utiliza para crear diferentes campos para el formulario. Estos son los imput que podemos utilizar( text, password, radio, checkbox, email, file, number, range, search, tel, time, submit, reset, url). 
 
-<imput>: Se utiliza para crear diferentes campos para el formulario. Estos son los imput que podemos utilizar( text, password, radio, checkbox, email, file, number, range, search, tel, time, submit, reset, url). 
+- Tambien tenemos las etiquetas (Select) y (option). Select: Se utiliza para crear menús desplegables y Option: Permite al usuario seleccionar una opción de una lista. 
 
-Tambien tenemos las etiquetas <Select> y <option>. Select: Se utiliza para crear menús desplegables y Option: Permite al usuario seleccionar una opción de una lista. 
-
-En estas dos etiquetas utilizaremos los atributos: 
+- En estas dos etiquetas utilizaremos los atributos: 
 
 - __name:__ Nombre del control que se usa al enviar el formulario.
 - __id:__ Identificador único del elemento.
@@ -298,7 +296,7 @@ En estas dos etiquetas utilizaremos los atributos:
 - __multiple:__ Permite seleccionar varias opciones a la vez.
 - __value:__ Valor predeterminado del campo o valor enviado al servidor.
 
-Como ultima etiqueta de formulario tenemos <textarea>:
+- Como ultima etiqueta de formulario tenemos <textarea>:
 
 - Esta se utiliza para crear una área de texto para que los usuarios puedan poner texto. 
 
@@ -310,61 +308,14 @@ Como ultima etiqueta de formulario tenemos <textarea>:
 - __readonly:__ Campo solo de lectura (no editable).
 - __disable:__ Campo desactivado (no interactivo).
 
-
-
-```html
-        <form action="urldestino.html" method="POST"><!--Action tenemos que poner URL destino  Method GET o POST get se manda por la URL y post no los envia por la URL por el cuerpo del mensaje target=blank no hable en la misma pestaña del navegador te hable otra -->        
-        <label form="username">Username:</label><!--etiqueta para poner nombre: label sirve para poner texto-->
-        <input type="text" name="username" id="username" required><!--name es el nombre del campo que se va a enviar al servidor la variable, id identifica la variable, le tenemos que poner el mismo nombre en name y id-->
-        <br>
-        <br>
-        <label form="Nombre real">Nombre real:</label><!--etiqueta para poner nombre: label sirve para poner texto-->
-        <input type="text" name="realname" id="realname"> 
-        <br>
-        <br>
-        <fieldset>
-            <legend>Tienes el carnet de conducir?</legend>
-            <label form="carnetsi">Carnet si:</label>
-            <input type="radio" name="carnet" value="carnetsi" id="carnetsi">
-            <label form="carnetno">Carnet no:</label>
-            <input type="radio" name="carnet" value="carnetno" id="carnetno"> 
-        </fieldset><!--En un conjunto de radios siempre pondremos las mis variable pq solo se enviara uno-->
-        <br>
-        <br>
-         <fieldset>
-            <legend>Gusto musical?</legend>
-            <label form="pop">Pop:</label>
-            <input type="checkbox" name="musica[]" value="pop" id="pop">
-            <label form="heavy">Heavy</label>
-            <input type="checkbox" name="musica[]" value="heavy" id="heavy"> 
-            <label form="trap">Trap</label>
-            <input type="checkbox" name="musica[]" value="trap" id="trap"> 
-        </fieldset><!--Raid: sirve para tener mas de una variable en una lista, esto lo haremos con los corchetes []-->
-        <br>
-        <br>
-        <label form="nacionalidad">Nacionalidad:</label>
-        <select id="nacionalidad" name="nacionalidad">
-            <option value="espana">España</option>
-            <option value="italia">Italia</option>
-            <option value="brasil">Brasil</option>
-        </select>
-        <br>
-        <br>
-        <label form="observaciones">Observaciones</label>
-        <br>
-        <textarea name="Observaciones" id="observaciones" rows="5" cols="30" placeholder="Introduce aqui cualquier observacion que tengas"></textarea><!--Textarea sirve para enviar texto largos-->
-        <br>
-        <br>
-        <button tupe="submit" name="enviar" value="enivar">Enviar datos</button>
-    </form>   
-```
-
-
+1. __Código Formulario:__
+![formulario](./img/formulario/codigoformulario.png "Imagen formulario")
+2. __Resultado Formulario:__
 ![formulario](./img/formulario/formulario.png "Imagen formulario")
 
 
 ## Tablas:
-Las etiquetas de tablas son: 
+- Las etiquetas de tablas son: 
 1. __<Table>:__ Se utiliza para dar inicio a una tabla HTML. Esta etiqueta tiene atributos asociados. 
     * __Border:__ Define el grosor del borde de la tabla.
     * __Width:__ Sirve para poner el ancho de la tabla.
@@ -384,40 +335,7 @@ Las etiquetas de tablas son:
     * __colspan:__ Define cuantas columnas abarca la celda.
     * __rowspan:__ Define cuantas filas abarca la celda.
 
-```html
-    <table border="1">
-        <thead>
-            <tr>
-                <th>POSICION</th>
-                <th>ATLETA</th>
-                <th>TIEMPO</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Pepe</td>
-                <td>3min</td>
-            </tr>
-            <tr>
-                <td rowspan="2">2</td>
-                <td colspan="2">Juancarlos</td>
-            </tr>
-           <tr>
-                <td>Ricardo</td>
-                <td>1min</td>
-            </tr>
-        </tbody>
-        <tfoot>
-             <tr>
-                <td>POSICION</td>
-                <td>ATLETA</td>
-                <td>TIEMPO</td>
-            </tr>
-        </tfoot>
-    </table>
-    <caption>Tabla de corredores</caption>
-```
-
-
+1. __Código tabla:__
+![tabla](./img/tabla/codigotabla.png "Imagen tabla")
+2. __Resultado tabla:__
 ![tabla](./img/tabla/tabla.png "Imagen tabla")
