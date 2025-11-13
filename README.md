@@ -219,13 +219,13 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
     <h5>Esto  en un encabezado H5</h5>
     <h6>Esto  en un encabezado H6</h6>
 ```
-# Esto  en un encabezado H1
-## Esto  en un encabezado H2
-### Esto  en un encabezado H3
-#### Esto  en un encabezado H4
-##### Esto  en un encabezado H5
-###### Esto  en un encabezado H6
+1. __Código encabezado:__
 
+![br](./img/encabezadoshtml/codigo.png "Imagen br")
+
+2. __Resultado encabezado:__
+
+![br](./img/encabezadoshtml/resultado.png "Imagen br")
 
 ## Párrafos:
 - Los párrafos sirven para agrupar oraciones relacionadas. Para hacer párrafos utilizaremos la etiqueta (p).
@@ -381,11 +381,27 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 
      ![Enlace local](./img/enlaces/resuinterno.png "Enlace local")
 
-     
+
 ## Contenedores (DIV):
+- (div) agrupa elementos y divide el contenido en secciones.
+- Sirve para organizar, aplicar estilos CSS y trabajar con JavaScript.
+- Es un bloque grande que puede contener texto, imágenes, formularios, etc.
 
 
 ## Elementos  sémanticos: 
+- HTML semántico da significado al contenido.
+- (div) y (span) no tienen significado propio, solo agrupan.
+- Ejemplos de etiquetas semánticas: 
+    * (header)
+    * (footer)
+    * (footer)
+    * (section)
+    * (nav)
+    * (figure)
+
+- Estas ayudan a los buscadores y a la accesibilidad web.
+
+![elementos](./img/elementos/elementos.png "elementos")
 
 
 ## Formularios:
@@ -452,3 +468,21 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 ![tabla](./img/tabla/tabla.png "Imagen tabla")
 
 # Validar código HTML:
+
+- La validación HTML sirve para comprobar que el código cumple con los estándares del W3C (World Wide Web Consortium).
+
+- Ayuda a detectar y corregir errores que pueden causar fallos o diferencias entre navegadores.
+
+- El validador HTML del W3C es una herramienta gratuita en línea que permite revisar el código.
+
+- Se puede validar de tres formas:
+
+    * Pegando la URL del sitio web,
+
+    * Subiendo un archivo HTML,
+
+    * Pegando directamente el código en el validador.
+
+[Pagina oficial W3C](https://validator.w3.org/ "Pagina oficial W3C")
+
+![tabla](./img/W3C/W3C.png "W3C")
