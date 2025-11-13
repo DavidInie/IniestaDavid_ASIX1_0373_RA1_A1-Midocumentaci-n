@@ -200,6 +200,12 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 - Buena organización de los archivos.
 
 
+## Comentarios en HTML.
+- Los comentarios sirven para añadir anotaciones en el código que no se muestran en la página web, pero ayudan al desarrollador.
+- Los comentarios se hacen (<!-- Texto que queremos comentar -->)
+
+
+
 ## Encabezados HTML
 - __Encabezados:__ Llevan una estiqueta asociada y casa uno sirve para iniciar el documento: Para hacer un encabazado en HTML, utilizaremos la etiqueta (h1, h2, h3, h4, h5, h6).
 
