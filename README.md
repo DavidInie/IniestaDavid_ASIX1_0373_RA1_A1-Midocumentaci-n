@@ -6,41 +6,71 @@
 
 
 ## Como crear un repositorio en github:
+
 1. El primer paso, sera ir a la pestaña de repositorios y darle a new.
+
 ![alt text](./img/crearrepo/cap1.png "Imagen 1")
+
 2. El segundo paso, es poner el nombre, descripción y coger la opción de repo publico y pibrado.
+
 ![alt text](./img/crearrepo/cap2.png  "Imagen 2")
+
 3. Una vez hecho eso los pasos, tendremos que marcar la opción de Add README.
+
 ![alt text](./img/crearrepo/cap3.png  "Imagen 3")
+
 4. Una vez marcada la opción, le daremos a crear reposositorio y ya tendremos creado el repositorio.
+
 ![alt text](./img/crearrepo/cap3.png  "Imagen 4")
 
 
 ## Como hacer un commit a github desde linea de comandos.
+
 1. El primer paso, es entrar a github y coger el enlace de html.
+
 ![alt text](./img/crearcommit/caplink.png "Imagen abir cmd")
+
 2. Una vez copiado el enlace, iremos a la carpeta del repositorio y abriremos el cmd.
+
 ![alt text](./img/crearcommit/cap1commit.png "Imagen enlace")
+
 3. Una vez abierto el cmd ejecutaremos el comando (git clone "enlace del repostioria HTML")
+
 ![alt text](./img/crearcommit/cap2commit.png "Imagen cmd")
+
 4. Cuando hayamos clonado el repositorio, tendremos que abir el cmd dentro de la carpeta del repositorio.
+
 ![alt text](./img/crearcommit/cap3commit.png "Imagen abir cmd")
+
 5. Una vez ejecutado el git clone, haremos estos pasos; 1.git init 2.git add . 3.git commit -m "nombre que queremos que tenga el commit" 4.git push origin main.
+
 ![alt text](./img/crearcommit/cap4commit.png "Imagen cmd")
 
 
 ## Como hacer github pages:
+
 1. El primer paso, es ir a la pestaña de repositorios, y entrar al repositorio.
+
 ![alt text](./img/pages/cap1.png "Imagen abir cmd")
+
 2. Una vez dentro del repositorio, iremos a settings.
+
 ![alt text](./img/pages/cap2.png "Imagen enlace")
+
 3. Cuando estemos dentro de settings, iremos a la parte izquierda y entraremos a PAGES.
+
 ![alt text](./img/pages/cap3.png "Imagen cmd")
+
 4. Cuando entremos, veremos que pone none.
+
 ![alt text](./img/pages/cap4.png "Imagen abir cmd")
+
 5. En la parte que pone none, tendremos que darle encima y poner save y darle a save.
+
 ![alt text](./img/pages/cap5.png "Imagen abir cmd")
+
 6. Una vez cambiada la ruta, esperaremos unos minutos y ya tendremos hecho el pages.
+
 ![alt text](./img/pages/cap6.png "Imagen abir cmd")
 
 
@@ -69,11 +99,6 @@
     - Esto esta en __*cursiva y negrita*__
 
 
-<!-- __*ABRIR ETIQUETA 1*__
-    ABRIR ETIQUETA 2
-        contenido 
-    CERRAR ETIQUETA 2
-CERRAR ETIQUETA 1 -->
 ## Listas Markdown
 - Para hacer una lista ordenada utilizaremos, (1. 2. 3.)
 Lista ordenada:
@@ -116,16 +141,23 @@ __Los acentos para la izquierda, sirven para ver la etiqueta, esto lo utilizarem
 
 ## Enlace Markdown
 __Para poner un link utilizaremos la etiqueta:__
-([Pagina oficial de marca](https://www.marca.com/ "Texto adicional del enlace")) 
 
+1. __Código enlace:__
+
+![enlace](./img/enlacema/cogenlace.png "enlace")
 
 [Pagina oficial de marca](https://www.marca.com/ "Texto adicional del enlace")   
 
 
 ## Imagen Markdown
- <!-- EXPLICAR MEJOR. -->
-__Para poner una imagen utilizaremos la estiqueta:__ Aqui lo mas importante, es tener la imagen en una carpeta dentro del repositorio que hemos creado. Cuando hayamos hecho eso tendremos que poner la ruta.
+
+__Para poner una imagen utilizaremos la estiqueta:__ Aqui lo mas importante, es tener la imagen en una carpeta dentro del repositorio que hemos creado. Cuando hayamos hecho eso tendremos que poner la ruta relativa.
+1. __Código imagen:__
+
+![imagen](./img/cogimage/imagengog.png "imagen")
+
 ![Messi](./img/images.jpg "Messi")
+
 
 
 
@@ -147,7 +179,7 @@ __Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo util
 
 ## Estructura basica HTML
 
-- La estructura basica de HTML se empieza abriendo una etiqueta (<!DOCTYPE html>) cuando hayamos abirto la etiqueta, abriremos otra en la que tendremos que poner el lenguaje que queremos que tenga la pagina. (<html lang="en">), despues de eso tendremos que abir y cerrar la etiqueta de (<head></head>). Sirve para añadir información extra, aqui dentro tendremos que poner los enlaces a otra pagina como a CSS o tambien podemos poner el favicon.
+- La estructura basica de HTML se empieza abriendo una etiqueta (!DOCTYPE html) cuando hayamos abirto la etiqueta, abriremos otra en la que tendremos que poner el lenguaje que queremos que tenga la pagina. (html lang="en"), despues de eso tendremos que abir y cerrar la etiqueta de (head). Sirve para añadir información extra, aqui dentro tendremos que poner los enlaces a otra pagina como a CSS o tambien podemos poner el favicon.
 
 
 ```html
@@ -165,10 +197,10 @@ __Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo util
 ## Normas básicas de HTML:
 
 
-- Las etiquetas HTML suelen venir en pares, con apertura y cierre (por ejemplo, <p></p>).
+- Las etiquetas HTML suelen venir en pares, con apertura y cierre (por ejemplo, p).
 
 
-- Algunas son etiquetas vacías, es decir, no tienen etiqueta de cierre, como (<img>, <br> o <input>).
+- Algunas son etiquetas vacías, es decir, no tienen etiqueta de cierre, como ( img, br o input).
 
 
 - Las etiquetas deben anidarse correctamente: si una etiqueta se abre dentro de otra, debe cerrarse antes de que se cierre la anterior.
@@ -485,4 +517,4 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 
 [Pagina oficial W3C](https://validator.w3.org/ "Pagina oficial W3C")
 
-![tabla](./img/W3C/W3C.png "W3C")
+![tabla](./img/w3c/W3C.png "W3C")
