@@ -99,21 +99,76 @@ __Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo util
 
 # Como hacer un commit a github desde linea de comandos.
 1. El primer paso, es entrar a github y coger el enlace de html.
-![alt text](./img/caplink.png "Imagen astronauta")
+![alt text](./img/caplink.png "Imagen abir cmd")
 2. Una vez copiado el enlace, iremos a la carpeta del repositorio y abriremos el cmd.
-![alt text](./img/cap1commit.png "Imagen astronauta")
-3. Una vez abierto el cms ejecutaremos el comando (git clone "enlace del repostioria HTML")
-![alt text](./img/cap2commit.png "Imagen astronauta")
+![alt text](./img/cap1commit.png "Imagen enlace")
+3. Una vez abierto el cmd ejecutaremos el comando (git clone "enlace del repostioria HTML")
+![alt text](./img/cap2commit.png "Imagen cmd")
 5. Cuando hayamos clonado el repositorio, tendremos que abir el cmd dentro de la carpeta del repositorio.
-![alt text](./img/cap3commit.png "Imagen astronauta")
+![alt text](./img/cap3commit.png "Imagen abir cmd")
 6. Una vez ejecutado el git clone, haremos estos pasos; 1.git init 2.git add . 3.git commit -m "nombre que queremos que tenga el commit" 4.git push origin main.
-![alt text](./img/cap4commit.png "Imagen astronauta")
+![alt text](./img/cap4commit.png "Imagen cmd")
 
 
 # Etiquetas básicas de HTML
 
 
-- En HTML  las etiquetas tienes que abrirse u cerrarse. Abrir etiqueta (<>), para cerrar una etiqueta utilizarems (/), (</>)
+- En HTML las etiquetas tienes que abrirse u cerrarse. Abrir etiqueta (<>), para cerrar una etiqueta utilizarems (/), (</>)
+
+
+## Estructura basica HTML
+
+- La estructura basica de HTML se empieza abriendo una etiqueta (<!DOCTYPE html>) cuando hayamos abirto la etiqueta, abriremos otra en la que tendremos que poner el lenguaje que queremos que tenga la pagina. (<html lang="en">), despues de eso tendremos que abir y cerrar la etiqueta de (<head></head>). Sirve para añadir información extra, aqui dentro tendremos que poner los enlaces a otra pagina como a CSS o tambien podemos poner el favicon.
+
+
+```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prueba</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+```
+
+
+## Normas básicas de HTML:
+
+
+- Las etiquetas HTML suelen venir en pares, con apertura y cierre (por ejemplo, <p></p>).
+
+
+- Algunas son etiquetas vacías, es decir, no tienen etiqueta de cierre, como (<img>, <br> o <input>).
+
+
+- Las etiquetas deben anidarse correctamente: si una etiqueta se abre dentro de otra, debe cerrarse antes de que se cierre la anterior.
+
+
+- Los atributos se colocan en la etiqueta de apertura y tienen el formato nombre="valor".
+
+
+- Recomendación: aunque HTML no distingue entre mayúsculas y minúsculas, se aconseja escribir todo en minúsculas.
+
+
+## Legibilidad y organización del código
+
+
+La legibilidad del código es la claridad con la que está escrito, para que cualquier persona pueda entenderlo fácilmente.  
+**Es fundamental que el código HTML sea legible.**
+
+
+Normalmente no trabajaremos solos, por lo que el código debe ser comprensible también para otros.  
+Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que hemos hecho.
+
+
+**La organización del código fuente** implica estructurar la aplicación en varios archivos y clasificarlos en los directorios necesarios.
+
+
+**Técnicas para mejorar la legibilidad y organización:**
+- Uso de comentarios.
+- Indentación del código.
+- Buena organización de los archivos.
 
 
 ## Encabezados HTML
@@ -128,6 +183,13 @@ __Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo util
     <h5>Esto  en un encabezado H5</h5>
     <h6>Esto  en un encabezado H6</h6>
 ```
+# Esto  en un encabezado H1
+## Esto  en un encabezado H2
+### Esto  en un encabezado H3
+#### Esto  en un encabezado H4
+##### Esto  en un encabezado H5
+###### Esto  en un encabezado H6
+
 
 ## Estilos HTML
 
@@ -140,4 +202,6 @@ __Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo util
     <br>
     <strong><em>Juntaremos las dos etiquetas para hacer un combinado de estilos</em></strong>
 ```
+
+
 
