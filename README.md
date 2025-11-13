@@ -105,7 +105,7 @@ __Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo util
 3. Una vez abierto el cms ejecutaremos el comando (git clone "enlace del repostioria HTML")
 ![alt text](./img/cap2commit.png "Imagen astronauta")
 5. Cuando hayamos clonado el repositorio, tendremos que abir el cmd dentro de la carpeta del repositorio.
-![alt text](./img/cap3commit.png"Imagen astronauta")
+![alt text](./img/cap3commit.png "Imagen astronauta")
 6. Una vez ejecutado el git clone, haremos estos pasos; 1.git init 2.git add . 3.git commit -m "nombre que queremos que tenga el commit" 4.git push origin main.
 ![alt text](./img/cap4commit.png "Imagen astronauta")
 
