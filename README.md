@@ -242,6 +242,18 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
     <br>
     <h5>Párrafo 2</h5>
 ```
+1. __Sin br__
+
+![br](./img/br/sinbr.png "Imagen br")
+
+2. __Código br__
+
+![br](./img/br/codigobr.png "Imagen br")
+
+3. __Con br__ 
+
+![br](./img/br/conbr.png "Imagen br")
+
 
 ## Separador de línea: 
 - Dibuja una línea divisoria. En la página. Esto lo haremos con etiqueta (hr).
@@ -269,6 +281,22 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
     <br>
     <strong><em>Juntaremos las dos etiquetas para hacer un combinado de estilos</em></strong>
 ```
+
+1. __Código negrita:__
+
+![strong](./img/estiloshtml/strc.png "strong")
+
+2. __Resultado negrita:__
+
+![strong](./img/estiloshtml/negrita.png "Imagen strong")
+
+3. __Código cursiva:__
+
+![cursiva](./img/estiloshtml/emc.png "Imagen cursiva")
+
+4. __Resultado cursiva:__
+
+![cursiva](./img/estiloshtml/cur.png "Imagen cursiva")
 
 
 ## Listas HTML: 
@@ -303,27 +331,57 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 
      ![Resultado Lista Combinada](./img/listas/combinado.png "Resultado Lista Combinada")
 
+
 ## Rutas HTML:
 
+### Ruta Absoluta: 
 
-### Ruta Absoluta:
-
+- Muestra la dirección completa de un archivo.
+     * __Ej:__ C:/Users/David/Documentos/ProyectoWeb/imagenes/logo.png
 
 ### Ruta Relativa: 
 
+- Indica la ubicación del archivo respecto al documento actual.
+    * __Ej:__ ../imagenes/logo.png
 
-## Enlaces:
-
+## Enlaces: 
+- Se usan para conectar páginas o documentos.
+- El destino se indica con el atributo href.
+- Title sirve para poner el nombre al enlace.
 
 ### Enlaces paginas externas:
 
+1. __Enlaces externos:__ llevan a otras webs.
 
-### Enlaces paginas internas: 
+    * __Enlace externo a Marca:__
 
+     ![Enlace externo](./img/enlaces/enlaceexterno.png "Enlace externo")
 
-### Enlaces a etiquetas dentro del propio código HTML:
+    * __Enlace desde la página:__
 
+     ![Enlace externo](./img/enlaces/externo.png "Enlace externo")
 
+    * __Resultado Marca:__
+
+     ![Enlace externo](./img/enlaces/resulexter.png "Enlace externo")
+
+### Enlaces paginas internas o dentro del propio código HTml: 
+
+2. __Enlaces locales:__ apuntan a archivos dentro del mismo sitio.
+
+    * __Enlace local a otra pagina:__
+
+     ![Enlace local](./img/enlaces/enlaceinterno.png "Enlace local")
+
+    * __Enlace desde la página:__
+
+     ![Enlace local](./img/enlaces/interno.png "Enlace local")
+
+    * __Resultado desde la mismas página:__
+
+     ![Enlace local](./img/enlaces/resuinterno.png "Enlace local")
+
+     
 ## Contenedores (DIV):
 
 
