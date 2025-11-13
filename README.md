@@ -63,13 +63,15 @@ __Los acentos para la izquierda, sirven para ver la etiqueta, esto lo utilizarem
 ```
 
 __Para poner un link utilizaremos la etiqueta:__
+([Pagina oficial de marca](https://www.marca.com/ "Texto adicional del enlace")) 
+
 
 [Pagina oficial de marca](https://www.marca.com/ "Texto adicional del enlace")   
 
 
  <!-- EXPLICAR MEJOR. -->
 __Para poner una imagen utilizaremos la estiqueta:__ Aqui lo mas importante, es tener la imagen en una carpeta dentro del repositorio que hemos creado. Cuando hayamos hecho eso tendremos que poner la ruta.
-![alt text](./images.jpg "Imagen astronauta")
+![alt text](./img/images.jpg "Imagen astronauta")
 
 
 __Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo utilizaremos para darle el ancho a la tabla.
