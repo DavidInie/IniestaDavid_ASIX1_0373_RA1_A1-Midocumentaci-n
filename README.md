@@ -2,6 +2,48 @@
 # APUNTES LENGUAJE DE MARCAS
 
 
+# GitHub:
+
+
+## Como crear un repositorio en github:
+1. El primer paso, sera ir a la pestaña de repositorios y darle a new.
+![alt text](./img/crearrepo/cap1.png "Imagen 1")
+2. El segundo paso, es poner el nombre, descripción y coger la opción de repo publico y pibrado.
+![alt text](./img/crearrepo/cap2.png  "Imagen 2")
+3. Una vez hecho eso los pasos, tendremos que marcar la opción de Add README.
+![alt text](./img/crearrepo/cap3.png  "Imagen 3")
+4. Una vez marcada la opción, le daremos a crear reposositorio y ya tendremos creado el repositorio.
+![alt text](./img/crearrepo/cap3.png  "Imagen 4")
+
+
+## Como hacer un commit a github desde linea de comandos.
+1. El primer paso, es entrar a github y coger el enlace de html.
+![alt text](./img/crearcommit/caplink.png "Imagen abir cmd")
+2. Una vez copiado el enlace, iremos a la carpeta del repositorio y abriremos el cmd.
+![alt text](./img/crearcommit/cap1commit.png "Imagen enlace")
+3. Una vez abierto el cmd ejecutaremos el comando (git clone "enlace del repostioria HTML")
+![alt text](./img/crearcommit/cap2commit.png "Imagen cmd")
+4. Cuando hayamos clonado el repositorio, tendremos que abir el cmd dentro de la carpeta del repositorio.
+![alt text](./img/crearcommit/cap3commit.png "Imagen abir cmd")
+5. Una vez ejecutado el git clone, haremos estos pasos; 1.git init 2.git add . 3.git commit -m "nombre que queremos que tenga el commit" 4.git push origin main.
+![alt text](./img/crearcommit/cap4commit.png "Imagen cmd")
+
+
+## Como hacer github pages:
+1. El primer paso, es ir a la pestaña de repositorios, y entrar al repositorio.
+![alt text](./img/pages/cap1.png "Imagen abir cmd")
+2. Una vez dentro del repositorio, iremos a settings.
+![alt text](./img/pages/cap2.png "Imagen enlace")
+3. Cuando estemos dentro de settings, iremos a la parte izquierda y entraremos a PAGES.
+![alt text](./img/pages/cap3.png "Imagen cmd")
+4. Cuando entremos, veremos que pone none.
+![alt text](./img/pages/cap4.png "Imagen abir cmd")
+5. En la parte que pone none, tendremos que darle encima y poner save y darle a save.
+![alt text](./img/pages/cap5.png "Imagen abir cmd")
+6. Una vez cambiada la ruta, esperaremos unos minutos y ya tendremos hecho el pages.
+![alt text](./img/pages/cap6.png "Imagen abir cmd")
+
+
 # Etiquetas básicas de Markdown
 
 
@@ -95,19 +137,6 @@ __Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo util
 | 10 | Barça | Messi |
 | 8 | Barça |Pedri|
 | 1 | Barça | Joan |// -->
-
-
-# Como hacer un commit a github desde linea de comandos.
-1. El primer paso, es entrar a github y coger el enlace de html.
-![alt text](./img/caplink.png "Imagen abir cmd")
-2. Una vez copiado el enlace, iremos a la carpeta del repositorio y abriremos el cmd.
-![alt text](./img/cap1commit.png "Imagen enlace")
-3. Una vez abierto el cmd ejecutaremos el comando (git clone "enlace del repostioria HTML")
-![alt text](./img/cap2commit.png "Imagen cmd")
-5. Cuando hayamos clonado el repositorio, tendremos que abir el cmd dentro de la carpeta del repositorio.
-![alt text](./img/cap3commit.png "Imagen abir cmd")
-6. Una vez ejecutado el git clone, haremos estos pasos; 1.git init 2.git add . 3.git commit -m "nombre que queremos que tenga el commit" 4.git push origin main.
-![alt text](./img/cap4commit.png "Imagen cmd")
 
 
 # Etiquetas básicas de HTML
