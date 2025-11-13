@@ -164,6 +164,12 @@ __Para poner una imagen utilizaremos la estiqueta:__ Aqui lo mas importante, es 
 ## Tabla Markdown
 __Para hacer una tabla__ Utilizaremos las barras(||), |-----------| Esto lo utilizaremos para darle el ancho a la tabla.
 
+1. __Código tabla:__
+
+![Tablamarkdown](./img/tablamarkdown/tablamarkdown.png "imaTablamarkdowngen")
+
+2. __Resultado tabla:__
+
 | Jugador | Equipo | Nombre |
 |-----------:|:-----------:|:-----------|
 | 10 | Barça | Messi |
