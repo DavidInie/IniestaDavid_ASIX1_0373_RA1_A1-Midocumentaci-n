@@ -523,4 +523,25 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 
 [Pagina oficial W3C](https://validator.w3.org/ "Pagina oficial W3C")
 
-![tabla](./img/w3c/W3C.png "W3C")
+![tabla](./img/w3c/W3C.png "W3C") 
+
+
+# APUNTES CSS
+
+## ¿Qué es CSS?
+
+CSS (Cascading Style Sheets) es un lenguaje que se usa para definir el **estilo y la apariencia** de una página web.
+![tabla](./img/cssquees/paginaconcss.png "CSS") 
+
+## ¿Para qué sirve CSS?
+Sirve para definir el **diseño y la apariencia visual** de una página web como colores, tamaños, posiciones, márgenes. Separando el contenido (HTML).
+
+## Ventajas de CSS
+
+- Facilita el mantenimiento del código.
+- Permite reutilizar estilos en varias páginas.
+- Es más potente para el diseño que las etiquetas de HTML.
+
+
+# Ubicación CSS:
+
