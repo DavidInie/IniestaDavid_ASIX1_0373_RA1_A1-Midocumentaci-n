@@ -587,11 +587,11 @@ Los estilos CSS se pueden aplicar de **tres formas diferentes**:
 
 ```
 
-### Ejemplo:
+### Ejemplo IMG:
 
 ![Ubinterna codigo](./img/ubicacion/ubinternoco.png "W3C") 
 
-![Ubinterna web](./img/ubicacion/ubintweb.png.png "W3C") 
+![Ubinterna web](./img/ubicacion/ubintweb.png "W3C") 
 
 
 
@@ -615,15 +615,19 @@ Los estilos CSS se pueden aplicar de **tres formas diferentes**:
 
 ### Ejemplo:
 1. Páginas **index.html** y **style.css**.
+
 ![Ubinterna codigo](./img/ubicacion/priex.png "W3C") 
 
 2. Enlace a página externa CSS, en head.
+
 ![Ubinterna web](./img/ubicacion/ubiexternoco.png "W3C") 
 
 3. Código CSS.
+
 ![Ubinterna web](./img/ubicacion/p.png "W3C") 
 
 4. Resultado final.
+
 ![Ubinterna web](./img/ubicacion/web.png "W3C") 
 
 
