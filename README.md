@@ -531,10 +531,12 @@ Incluso si solo lo modificamos nosotros, la legibilidad ayuda a recordar lo que 
 ## ¿Qué es CSS?
 
 CSS (Cascading Style Sheets) es un lenguaje que se usa para definir el **estilo y la apariencia** de una página web.
-![tabla](./img/cssquees/paginaconcss.png "CSS") 
+
 
 ## ¿Para qué sirve CSS?
+
 Sirve para definir el **diseño y la apariencia visual** de una página web como colores, tamaños, posiciones, márgenes. Separando el contenido (HTML).
+
 
 ## Ventajas de CSS
 
@@ -544,4 +546,26 @@ Sirve para definir el **diseño y la apariencia visual** de una página web como
 
 
 # Ubicación CSS:
+
+Los estilos CSS se pueden aplicar de **tres formas diferentes**:
+
+## 1. Estilo Inline
+- Se escribe **directamente dentro de la etiqueta HTML**.
+- Lo escribimos con el atributo `style`.
+- Afecta **solo a ese elemento.**
+- **No lo recomendaria** para proyectos grandes.
+
+**Ejemplo:**
+```html
+<p style="text-align: center; color: red;">
+    Este encabezado esta centrado y es de color rojo.
+</p>
+
+```
+### Ejemplo:
+
+![tabla](./img/ubicación/Ubicacion%20inline.png "W3C") 
+
+
+
 
