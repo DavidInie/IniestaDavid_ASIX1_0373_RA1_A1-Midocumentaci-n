@@ -544,6 +544,8 @@ Sirve para definir el **diseño y la apariencia visual** de una página web como
 - Permite reutilizar estilos en varias páginas.
 - Es más potente para el diseño que las etiquetas de HTML.
 
+![tabla](./img/cssquees/que-es-css.webp "W3C") 
+
 
 # Ubicación CSS:
 
@@ -632,6 +634,88 @@ Los estilos CSS se pueden aplicar de **tres formas diferentes**:
 
 
 
+# Prioridad y Especificidad en CSS
 
+Cuando varias reglas CSS afectan al mismo elemento, el navegador decide cuál aplicar basándose en una **jerarquía de prioridades**.
+
+### 1. Origen del Estilo (Orden de Importancia)
+
+Si hay conflictos según dónde se declara el estilo, la prioridad es (de menor a mayor):
+
+1. **Hoja externa** → Archivo `.css` vinculado.
+2. **Estilo interno** → Dentro de la etiqueta `<style>` en el `<head>`.
+3. **Estilo inline** → Atributo `style="..."` directamente en la etiqueta HTML.
+
+### 2. Cálculo de Especificidad
+
+El navegador asigna puntos a los selectores.  
+
+**Cuanta más puntuación, mayor prioridad.**
+
+| Tipo de selector | Especificidad | Ejemplo |
+|------------------|---------------|---------|
+| Inline (estilo en línea) | 1000 | `<h1 style="color:red">` |
+| ID | 100 | `#header` |
+| Clase, atributos, pseudoclases | 10 | `.main`, `[type="text"]`, `:hover` |
+| Elementos y pseudoelementos | 1 | `h1`, `p`, `::before` |
+| Universal / combinadores | 0 | `*`, `+`, `>`, `~` |
+ 
+La **herencia** (propiedades que pasan de padres a hijos, como `font-family`) tiene siempre la prioridad más baja.
+
+### 3. Reglas Especiales
+
+#### Orden de aparición
+Si dos reglas tienen la **misma especificidad**, se aplicará la que esté **más abajo** en el archivo CSS.
+
+#### Modificador `!important`
+Una regla con `!important` **rompe toda la jerarquía** y se aplica por encima de cualquier otra, incluso de los estilos inline.
+
+### 4. Ejemplo Práctico (Análisis de Caso)
+
+#### HTML
+
+```html
+<div id="main" class="box">
+  <h1 style="color: green;">Hello</h1>
+</div>
+```
+
+## Ejemplo 1: Prioridad por origen del estilo
+
+
+![Ubinterna web](./img/propiedades/prop.png "W3C") 
+
+
+## Ejemplo 2: Especificidad (elemento vs clase vs ID)
+
+
+![Ubinterna web](./img/propiedades/ht.png "W3C") 
+
+
+![Ubinterna web](./img/propiedades/css.png "W3C") 
+
+
+![Ubinterna web](./img/propiedades/prueba.png "W3C") 
+
+
+## Ejemplo 3: !important 
+
+
+![Ubinterna web](./img/propiedades/hola.png "W3C")
+
+
+![Ubinterna web](./img/propiedades/hollllll.png "W3C") 
+
+
+## Ejemplo 4: !important vs !important
+
+
+![Ubinterna web](./img/propiedades/apuntes.png "W3C") 
+
+
+![Ubinterna web](./img/propiedades/apuntescss.png "W3C") 
+
+
+![Ubinterna web](./img/propiedades/apun.png "W3C") 
 
 
