@@ -557,14 +557,76 @@ Los estilos CSS se pueden aplicar de **tres formas diferentes**:
 
 **Ejemplo:**
 ```html
-<p style="text-align: center; color: red;">
+<h1 style="text-align: center; color: red;">
     Este encabezado esta centrado y es de color rojo.
-</p>
+</h1>
 
 ```
 ### Ejemplo:
 
-![tabla](./img/ubicación/Ubicacion%20inline.png "W3C") 
+![tabla](./img/ubicacion/Ubicacion%20inline.png "W3C") 
+
+
+### 2. Estilo Interno
+
+- Se escribe dentro de la etiqueta `<style>`.
+- Va en la sección `<head>` del documento HTML.
+- Afecta a todos los elementos que coincidan con el selector.
+
+**Ejemplo:**
+
+```html
+<head>
+  <style>
+    p {
+      text-align: center;
+      color: red;
+    }
+  </style>
+</head>
+
+```
+
+### Ejemplo:
+
+![Ubinterna codigo](./img/ubicacion/ubinternoco.png "W3C") 
+
+![Ubinterna web](./img/ubicacion/ubintweb.png.png "W3C") 
+
+
+
+## 3. Estilo Externo
+
+- El código CSS se escribe en un archivo externo con extensión `.css`.
+- Es la forma más recomendada para proyectos grandes.
+- Permite reutilizar estilos en varias páginas.
+- Se enlaza al documento HTML con la etiqueta `<link>` dentro del `<head>`.
+
+### HTML
+
+```html
+<link rel="stylesheet" href="style.css">
+    p {
+        text-align: center;
+        color: red;
+    }
+
+```
+
+### Ejemplo:
+1. Páginas **index.html** y **style.css**.
+![Ubinterna codigo](./img/ubicacion/priex.png "W3C") 
+
+2. Enlace a página externa CSS, en head.
+![Ubinterna web](./img/ubicacion/ubiexternoco.png "W3C") 
+
+3. Código CSS.
+![Ubinterna web](./img/ubicacion/p.png "W3C") 
+
+4. Resultado final.
+![Ubinterna web](./img/ubicacion/web.png "W3C") 
+
+
 
 
 
