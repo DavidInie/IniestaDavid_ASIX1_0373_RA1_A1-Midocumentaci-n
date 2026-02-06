@@ -701,10 +701,10 @@ Una regla con `!important` **rompe toda la jerarquía** y se aplica por encima d
 ## Ejemplo 3: !important 
 
 
-![Ubinterna web](./img/propiedades/hola.png "W3C")
-
-
 ![Ubinterna web](./img/propiedades/hollllll.png "W3C") 
+
+
+![Ubinterna web](./img/propiedades/hola.png "W3C")
 
 
 ## Ejemplo 4: !important vs !important
@@ -718,4 +718,287 @@ Una regla con `!important` **rompe toda la jerarquía** y se aplica por encima d
 
 ![Ubinterna web](./img/propiedades/apun.png "W3C") 
 
+
+# Sintaxis CSS
+
+Una hoja de estilos es un conjunto de reglas que definen cómo se verá un documento HTML.  
+Cada regla se divide en **dos partes principales**:
+
+- **Selector:**  
+  Indica a qué elementos de la página se les aplicará el estilo  
+  (por ejemplo, todos los párrafos `<p>`).
+
+- **Declaraciones:**  
+  Son las instrucciones específicas de diseño.  
+  Se escriben entre llaves `{ }`.
+
+
+
+## Estructura de una Declaración
+
+Cada declaración se compone de un par:
+
+- **Propiedad:**  
+  El aspecto que quieres cambiar  
+  (ej. color de letra, tamaño).
+
+- **Valor:**  
+  El ajuste específico que deseas aplicar  
+  (ej. rojo, `12px`).
+
+
+![Ubinterna web](./img/sintax/h.png "W3C") 
+
+
+![Ubinterna web](./img/sintax/css.png "W3C") 
+
+
+![Ubinterna web](./img/sintax/web.png "W3C") 
+
+
+# Comentarios CSS
+
+Los comentarios en CSS se utilizan para **explicar el código, organizarlo y facilitar su lectura y mantenimiento.**  
+El navegador **ignora completamente** los comentarios al mostrar la página web.
+
+
+## Sintaxis
+
+
+En CSS, los comentarios se escriben asi:
+
+```css
+/* comentario */
+```
+
+
+![Ubinterna web](./img/sintax/comCSS.png "W3C") 
+
+
+
+# Agrupar Selectores en CSS
+
+## Objetivo
+
+La **agrupación de selectores** sirve para **evitar repetir código** cuando varios elementos HTML necesitan el **mismo estilo**.  
+
+
+## ¿Cómo se hace?
+
+Se escriben varios selectores **en la misma regla**, separados por una **coma ( , )**.
+
+### Ejemplo:
+
+```css
+h1, h2, h3 {
+  color: red;
+}
+
+```
+
+## Ejemplo Agrupadores:
+
+
+![Ubinterna web](./img/sintax/AGhtml.png "W3C") 
+
+
+![Ubinterna web](./img/sintax/AGcss.png "W3C") 
+
+
+![Ubinterna web](./img/sintax/AGweb.png "W3C") 
+
+
+# CSS: Tipos de selectores avanzados
+
+
+## 1. Selector universal
+
+
+### Descripción
+El selector universal se representa con `*` y selecciona **todos los elementos HTML** de la página.
+
+
+### Ejemplo
+
+
+```css
+* { box-sizing: border-box;  margin: 0; padding: 0;}
+```
+
+
+![Ubinterna web](./img/sintax/aste.png "W3C") 
+
+
+## 2. Selectores de atributos
+
+### Descripción
+Permiten seleccionar elementos HTML en función de los atributos que contienen y de sus valores.
+
+### Ejemplos
+
+Seleccionar todas las imágenes que tengan el atributo `alt`:
+
+```css
+img[alt] {
+  border: 1px solid #000000;
+}
+```
+
+## Ejemplo:
+
+
+![Ubinterna web](./img/atributos/atrhtml.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/atrcss.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/mapa.png "W3C") 
+
+
+## 3. Selectores de hijos directos
+
+### Descripción
+Permiten seleccionar elementos que son hijos directos de otro elemento, usando el símbolo `>`.
+
+### Ejemplos
+
+`<strong>` que sea hijo directo de `<h3>`:
+
+```css
+h3 > strong {
+  color: blue;
+}
+```
+
+## Ejemplo:
+
+
+![Ubinterna web](./img/atributos/hhtml.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/hcss.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/web.png "W3C") 
+
+
+
+# Selector de hijos (`>`)
+
+Selecciona solo los elementos que son **hijos directos** de otro elemento.
+Solo se aplican estilos a los <em> que estén directamente dentro de un `<div>`.
+No afecta a los <em> que estén dentro de otros elementos intermedios (como <p>).
+
+
+## Sintaxis
+
+```css
+div > em {
+  ...
+}
+```
+
+
+![Ubinterna web](./img/atributos/hijoHT.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/HIJCSS.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/webhijo.png "W3C") 
+
+
+# Selector de hermanos adyacentes (`+`)
+
+
+Permite seleccionar un elemento cuando aparece **directamente después de otro elemento concreto**, al mismo nivel de la jerarquía del documento.
+s
+- Selecciona solo el **primer elemento hermano inmediato**
+- Ambos elementos deben compartir el **mismo padre**
+- Si hay otro elemento entre ellos, **no se aplica**
+
+## Ejemplo HTML
+
+```html
+<h1>Encabezado 1</h1>
+<h2>Encabezado 2 (hermano adyacente)</h2>
+<h2>Encabezado 2 (hermano no adyacente)</h2>
+
+```
+
+
+![Ubinterna web](./img/atributos/adyacenteshtml.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/adyacentescss.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/adyacentesweb.png "W3C") 
+
+
+# Sintaxis Pseudoclases
+
+Las pseudoclases se utilizan para definir estilos **según el estado de los elementos**, no para los elementos en sí.
+
+Uno de los usos más habituales es aplicar estilos a los **estados de los enlaces**, como se muestra a continuación.
+
+## Pseudoclases más comunes en enlaces
+
+- `:link`  
+  Estado normal por defecto de los enlaces. Tal y como se ven por primera vez.
+
+- `:visited`  
+  Enlaces que ya se han visitado en el navegador que se está utilizando.
+
+- `:focus`  
+  Enlaces o campos de formularios, o cualquier otro elemento, que tiene en ese momento el cursor o foco.
+
+- `:hover`  
+  Enlaces que tienen en ese momento el puntero del ratón sobre ellos.
+  
+
+![Ubinterna web](./img/atributos/colhtml.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/colcss.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/colrojo.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/colila.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/colnaranja.png "W3C") 
+
+
+# Sintaxis Pseudoelementos
+
+
+Al igual que las pseudoclases, los pseudoelementos no afectan a todo el elemento, sino que permiten aplicar estilos a **una parte concreta del mismo**.
+
+Por ejemplo, el pseudoelemento `::first-line` selecciona solo la **primera línea del elemento** indicado por el selector.
+
+## Ejemplo CSS
+
+```css
+/* Selecciona la primera línea de un <p> */
+p::first-line {
+  color: red;
+}
+
+```
+
+![Ubinterna web](./img/atributos/Pseudoelementoshtml.png "W3C") 
+
+
+![Ubinterna web](./img/atributos/Pseudoelementoscss.png  "W3C") 
+
+
+![Ubinterna web](./img/atributos/Pseudoelementosweb.png "W3C") 
+
+
+# GOOGLE FONTS:
+[GOOGLE FONTS](https://fonts.google.com)
 
