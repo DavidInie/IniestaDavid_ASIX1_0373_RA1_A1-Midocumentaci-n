@@ -1360,3 +1360,9 @@ body {
 
 
 ![Ubinterna web](./img/responsive/rweb2.png "W3C")
+
+
+# RESULTADO FINAL DE UNA PÁGINA WEB CON **HTML Y CSS**:
+
+
+[Ver video](./video/video_final.mp4)
