@@ -1331,7 +1331,7 @@ body {
   background-color: blue;
 }
 
-/* Tabletas */
+/* IpadMIni */
 @media (max-width: 1024px) {
   body {
     background-color: green;
