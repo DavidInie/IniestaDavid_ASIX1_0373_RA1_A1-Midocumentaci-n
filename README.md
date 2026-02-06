@@ -1000,5 +1000,59 @@ p::first-line {
 
 
 # GOOGLE FONTS:
+
+
 [GOOGLE FONTS](https://fonts.google.com)
 
+1. El primer paso, será entrar a la página principal de google fonts, cuando estemos dentro tendremos que escoger el tipo de fuente . 
+
+
+![Ubinterna web](./img/googlefonts/1.png "W3C") 
+
+
+2. Cuando hayamos escogido el tipo de fuente, le daremos a GET FONT.
+
+
+![Ubinterna web](./img/googlefonts/2.png "W3C") 
+
+
+3. Una vez dentro, tendremos que escoger entre (link) o (import). En este casa escogeremos link por lo tanto tendremos que pegar el enlace en el head.
+
+
+![Ubinterna web](./img/googlefonts/3.png "W3C") 
+
+
+4. Como hemos escogido link, tendremos que poner el enlace de google fonts en el head de nuestro código HTML.
+
+
+![Ubinterna web](./img/googlefonts/3.png "W3C") 
+
+
+5. Una vez pegado el código en el head, tendremos que ir a nuestro css para establecer en el body el font-family y el nombre de la letra.
+
+
+![Ubinterna web](./img/googlefonts/6.png "W3C") 
+
+
+6. En el caso de que cogamos la opción la @import, tendremos que pegar le codigo en nuestro CSS.
+
+
+![Ubinterna web](./img/googlefonts/4.png "W3C") 
+
+
+7. Como hemos cogido la opción la @import, pegamos el código en nuestro CSS.
+
+
+![Ubinterna web](./img/googlefonts/5.png "W3C") 
+
+
+8. Una vez pegado el código en el head, tendremos que ir a nuestro css para establecer en el body el font-family y el nombre de la letra.
+
+
+![Ubinterna web](./img/googlefonts/6.png "W3C") 
+
+
+9. Resultado.
+
+
+![Ubinterna web](./img/googlefonts/7.png "W3C") 
