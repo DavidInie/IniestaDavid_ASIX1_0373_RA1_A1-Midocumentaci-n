@@ -1350,7 +1350,7 @@ body {
 ### EJEMPLO:
 
 
-![Ubinterna web](./img//responsive/rhtml.png"W3C") 
+![Ubinterna web](./img//responsive/rhtml.png "W3C") 
 
 
 ![Ubinterna web](./img/responsive/rcss.png "W3C") 
