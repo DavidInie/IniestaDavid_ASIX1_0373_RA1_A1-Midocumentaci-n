@@ -1056,3 +1056,248 @@ p::first-line {
 
 
 ![Ubinterna web](./img/googlefonts/7.png "W3C") 
+
+
+
+# COMPOSICIÓN: Márgenes, bordes y relleno en CSS:
+
+## Introducción al Box Model
+- Muchos elementos HTML (como div y encabezados) se representan ocupando todo el ancho del navegador y forzando un salto de línea al final, apilándose verticalmente en el documento. El control del espacio en blanco se logra mediante márgenes (margin), bordes (border) y relleno (padding).
+
+
+![Ubinterna web](./img/composicion/boxmodel.jpg "W3C")
+
+
+## Margen (margin)
+
+Representa el área transparente que rodea la caja, es decir, el espacio que la separa de los elementos contiguos.
+
+### Propiedades específicas
+
+- **margin-top** → margen superior  
+- **margin-right** → margen derecho  
+- **margin-bottom** → margen inferior  
+- **margin-left** → margen izquierdo  
+
+### Valores permitidos
+
+- **Píxeles:** `2px`  
+- **Referencia del font-size del elemento actual:** `1em`  
+- **Referencia del font-size del elemento raíz `<html>`:** `1rem`  
+- **Porcentaje:** `5%`  
+- **Automático:** `auto`  
+
+### Nota 
+
+En elementos de línea (`<span>`), los valores de margen (**top**) y (**bottom**) son ignorados.
+
+### EJEMPLO:
+
+
+![Ubinterna web](./img/composicion/marghtml.png "W3C") 
+
+
+![Ubinterna web](./img/composicion/margcss.png  "W3C") 
+
+
+![Ubinterna web](./img/composicion/margweb.png  "W3C")
+
+
+## Borde (border)
+
+
+border: [border-width || border-style || border-color | inherit];
+
+
+### Propiedades específicas:
+
+
+- `border-top`
+- `border-right`
+- `border-bottom`
+- `border-left`
+
+
+### Características:
+
+
+- El grosor del borde **no puede ser negativo**
+- Los bordes izquierdo y derecho de un elemento en línea aparecen siempre al inicio y final de este
+- Los bordes superior e inferior de un elemento en línea pueden solaparse según el valor de la propiedad `line-height`
+- La propiedad border se puede dividir en cuatro propiedades: `border-top`, `border-right`, `border-bottom` y `border-left`
+
+
+### Estilos de border-style:
+```
+`none`, `hidden`, `dotted` (punteado), `dashed` (discontinuo), `solid` (sólido), `double`, `groove`, `ridge`, `inset`, `outset` e `inherit`
+```
+### EJEMPLO:
+
+
+![Ubinterna web](./img/composicion/bhtml.png "W3C") 
+
+
+![Ubinterna web](./img/composicion/bcss.png "W3C") 
+
+
+![Ubinterna web](./img/composicion/bweb.png  "W3C")
+
+
+
+
+## Relleno (padding)
+
+- El padding es el espacio entre el borde del elemento y su contenido.
+
+
+### Propiedades específicas:
+
+- `padding-top`
+- `padding-right`
+- `padding-bottom`
+- `padding-left`
+
+
+### Características:
+
+- El valor del padding **nunca puede ser negativo**
+- El estilo del padding **es transparente**
+
+
+### EJEMPLO:
+
+
+![Ubinterna web](./img/composicion/phtml.png "W3C") 
+
+
+![Ubinterna web](./img/composicion/pcss.png "W3C") 
+
+
+![Ubinterna web](./img/composicion/pweb.png "W3C")
+
+
+# POSICIONAMIENTO: `display: block`
+
+### Introducción
+
+En CSS, la propiedad **`display`** es una de las más importantes, ya que determina cómo se comporta un elemento en la página según su modelo de caja y su participación en el flujo del documento.
+
+Permite definir si un elemento se muestra como:
+
+- `block`
+- `inline`
+- `flex`
+- `grid`
+- `none`
+
+Por defecto, usan:
+
+```css
+display: block;
+box-sizing:
+content-box;
+```
+
+### Problema del box-sizing
+
+EL box-sizing tiene un problrm y es que el comportamiento puede generar conflictos con los diseños definidos por UX/UI, ya que el tamaño real del elemento es mayor al esperado. Por la tanto para solucionar este problema podremos utilizar: **box-sizing: border-box;**.
+
+
+### EJEMPLO:
+
+
+![Ubinterna web](./img/posicion/poshtml.png "W3C") 
+
+
+![Ubinterna web](./img/posicion/poscss.png "W3C") 
+
+
+![Ubinterna web](./img/posicion/posweb.png "W3C")
+
+
+
+#  POSICIONAMIENTO: `overflow`
+
+## Introducción
+
+En CSS, la propiedad **`overflow`** es que el contenido de una caja de tamaño fijo sobresalga de las dimensiones de la misma (**overflow**).
+
+Por defecto, la propiedad tiene el valor:
+
+```css
+overflow: visible;
+```
+
+### Opciones de overflow
+
+
+1. **overflow: hidden.**
+
+Oculta el contenido que desborda del contenedor.
+No es visible en ningún caso.
+
+
+2. **overflow: scroll**
+
+Recorta el contenido y el navegador incluye barras de desplazamiento, aunque no sean necesarias.
+
+
+3. **overflow: auto**
+
+El navegador decide si muestra o no las barras de desplazamiento según sea necesario.
+
+
+### EJEMPLO:
+
+
+![Ubinterna web](./img/posicion/overflowhtml.png "W3C") 
+
+
+![Ubinterna web](./img/posicion/overflowcss.png "W3C") 
+
+
+![Ubinterna web](./img/posicion/overflowweb.png "W3C")
+
+
+
+
+## POSICIONAMIENTO: `Flexbox`
+
+
+## Introducción
+
+Antes se utilizaban técnicas como:
+
+- `float`
+- `position`
+- `inline-block`
+
+Estos métodos resultaban poco flexibles para:
+
+- dispositivos móviles  
+- múltiples resoluciones  
+- diseño responsive  
+
+Pero ahora se utiliza Flexbox.
+
+## ¿Qué es Flexbox?
+
+Flexbox es un sistema de **diseño flexible** que permite:
+
+- Alinear elementos fácilmente  
+- Adaptarlos al tamaño del contenedor  
+- Distribuir el espacio automáticamente  
+
+
+### EJEMPLO:
+
+
+![Ubinterna web](./img/posicion/flexhtml.png "W3C") 
+
+
+![Ubinterna web](./img/posicion/flexcss.png "W3C") 
+
+
+![Ubinterna web](./img/posicion/flexweb.png "W3C")
+
+
