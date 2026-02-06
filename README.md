@@ -1019,13 +1019,13 @@ p::first-line {
 3. Una vez dentro, tendremos que escoger entre (link) o (import). En este casa escogeremos link por lo tanto tendremos que pegar el enlace en el head.
 
 
-![Ubinterna web](./img/googlefonts/3.png "W3C") 
+![Ubinterna web](./img/googlefonts/3link.png "W3C") 
 
 
 4. Como hemos escogido link, tendremos que poner el enlace de google fonts en el head de nuestro código HTML.
 
 
-![Ubinterna web](./img/googlefonts/3.png "W3C") 
+![Ubinterna web](./img/googlefonts/3link.png "W3C") 
 
 
 5. Una vez pegado el código en el head, tendremos que ir a nuestro css para establecer en el body el font-family y el nombre de la letra.
@@ -1037,7 +1037,7 @@ p::first-line {
 6. En el caso de que cogamos la opción la @import, tendremos que pegar le codigo en nuestro CSS.
 
 
-![Ubinterna web](./img/googlefonts/4.png "W3C") 
+![Ubinterna web](./img/googlefonts/4import.png "W3C") 
 
 
 7. Como hemos cogido la opción la @import, pegamos el código en nuestro CSS.
