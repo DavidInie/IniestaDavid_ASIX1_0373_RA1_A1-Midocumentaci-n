@@ -1364,5 +1364,12 @@ body {
 
 # RESULTADO FINAL DE UNA PÁGINA WEB CON **HTML Y CSS**:
 
-
+<video controls>
+  <source src="./video/video_final.mp4" type="video/mp4">
+</video>
+```
+<video controls>
+  <source src="./video/video_final.mp4" type="video/mp4">
+</video>
+```
 [Ver video](./video/video_final.mp4)
