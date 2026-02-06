@@ -1300,4 +1300,63 @@ Flexbox es un sistema de **diseño flexible** que permite:
 
 ![Ubinterna web](./img/posicion/flexweb.png "W3C")
 
+<!--MIRAR DESPUES-->
+# Diseño Responsive
 
+## ¿Qué es el diseño responsive?
+
+El diseño responsive es una técnica de diseño web que permite que un sitio web se **adapte automáticamente a diferentes tamaños de pantallas y dispositivos** (ordenadores, tablets, moviles).
+
+
+## Características principales
+
+- **Flexible y adaptable**  
+  El diseño y los elementos (texto, imágenes, menús) se ajustan al tamaño de la pantalla.
+
+- **Media queries**  
+  Permiten aplicar estilos específicos según el ancho, alto u otras propiedades de la pantalla.
+
+- **Rejillas fluidas**  
+  Los tamaños de los contenedores se basan en **porcentajes** en lugar de valores fijos.
+
+- **Imágenes y fuentes escalables**  
+  Se ajustan para mantener la proporción y legibilidad en diferentes dispositivos.
+
+
+## Ejemplo en CSS
+
+```css
+/* Ordenador*/
+body {
+  background-color: blue;
+}
+
+/* Tabletas */
+@media (max-width: 1024px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* iphone 12 */
+@media (max-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+}
+```
+
+
+### EJEMPLO:
+
+
+![Ubinterna web](./img//responsive/rhtml.png"W3C") 
+
+
+![Ubinterna web](./img/responsive/rcss.png "W3C") 
+
+
+![Ubinterna web](./img/responsive/rweb1.png "W3C")
+
+
+![Ubinterna web](./img/responsive/rweb2.png "W3C")
